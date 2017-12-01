@@ -1,0 +1,40 @@
+{
+  "products": [
+
+    {
+      "id": 1,
+      "name": "qui aliquip",
+      "price": 945.6272,
+      "picture": "https://ionicframework.com/docs/demos/src/slides/www/assets/slide4.jpeg",
+      "about": "Id in nostrud Lorem fugiat dolore. Dolor adipisicing id aliqua mollit magna eu. Et sunt eiusmod reprehenderit irure ad proident tempor consequat voluptate reprehenderit nisi nostrud laboris labore.\r\n"
+    },
+    {
+      "id": 2,
+      "name": "cupidatat est",
+      "price": 31.987,
+      "picture": "https://ionicframework.com/dist/preview-app/www/assets/img/nin-live.png",
+      "about": "Amet in deserunt esse elit incididunt reprehenderit amet dolore cupidatat sunt cupidatat mollit commodo cupidatat. Proident qui duis exercitation aliqua esse non culpa eiusmod amet in enim esse.\r\n"
+    },
+    {
+      "id": 3,
+      "name": "qui est",
+      "price": 426.5248,
+      "picture": "https://ionicframework.com/docs/demos/src/slides/www/assets/slide1.jpeg",
+      "about": "Proident reprehenderit mollit tempor et reprehenderit incididunt do sit quis nulla dolore veniam. Ea exercitation laboris officia dolor velit exercitation aliqua occaecat labore irure dolore reprehenderit.\r\n"
+    },
+    {
+      "id": 4,
+      "name": "aute laboris",
+      "price": 68.3445,
+      "picture": "https://ionicframework.com/docs/demos/src/slides/www/assets/slide2.jpeg",
+      "about": "Nulla dolore aute nisi non dolore enim. Ipsum consequat deserunt voluptate ipsum Lorem mollit. Anim duis laborum excepteur qui excepteur ea mollit dolor enim magna. Cupidatat aliquip ipsum mollit dolore ad duis. Culpa est officia commodo deserunt proident nulla cillum Lorem Lorem.\r\n"
+    },
+    {
+      "id": 5,
+      "name": "proident do",
+      "price": 253.971,
+      "picture": "https://ionicframework.com/docs/demos/src/slides/www/assets/slide3.jpeg",
+      "about": "Cillum sit labore aute esse in culpa ex voluptate sit. Nisi magna nisi sit culpa do non voluptate proident velit aliqua. Amet eu sunt aute dolor sunt incididunt ullamco cillum sit pariatur. Reprehenderit officia elit do velit Lorem reprehenderit in labore labore. Adipisicing mollit tempor eiusmod officia.\r\n"
+    }
+  ]
+}

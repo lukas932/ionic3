@@ -17,8 +17,13 @@ export class ProductHttp {
     console.log('Hello ProductHttp Provider');
   }
 
-  getProduct(): Observable<Array<any>> {
+  getProducts(): Observable<Array<any>> {
     return this.http.get('http://localhost:3000/products')
+      .map(response => response.json());
+  }
+
+  getProductById(id: number): Observable<Object> {
+    return this.http.get(`http://localhost:3000/products/${id}`)
       .map(response => response.json());
   }
 

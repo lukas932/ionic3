@@ -1,5 +1,5 @@
 <!--
-  Generated template for the ProdutosPage page.
+  Generated template for the ProdutoDetalhesPage page.
 
   See http://ionicframework.com/docs/components/#navigation for more info on
   Ionic pages and navigation.
@@ -9,13 +9,13 @@
     <button ion-button menuToggle>
       <ion-icon name="menu"></ion-icon>
     </button>
-    <ion-title>Produtos</ion-title>
+    <ion-title>Detalhes</ion-title>
   </ion-navbar>
 </ion-header>
 
 <ion-content class="card-background-page">
-  <ion-card *ngFor="let product of products">
-      <img navPush="ProdutoDetalhes" [navParams]="{produto: product.id}" src="{{ product.picture }}"/>
+  <ion-card *ngIf="product">
+      <img src="{{ product.picture }}"/>
       <ion-card-content>
         <ion-card-title>
           {{ product.name }}
@@ -25,12 +25,4 @@
         </p>
       </ion-card-content>
     </ion-card>
-
-    <ion-infinite-scroll (ionInfinite)="doInfinite($event)" threshold="100px">
-      <ion-infinite-scroll-content
-        loadingSpinner="bubbles"
-        loadingText="Loading more data...">
-      </ion-infinite-scroll-content>
-    </ion-infinite-scroll>
-
 </ion-content>

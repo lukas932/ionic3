@@ -5,6 +5,7 @@ import { SplashScreen } from '@ionic-native/splash-screen';
 
 import { GoogleMapsPage } from '../pages/google-maps-page/google-maps-page';
 import { ProdutosPage } from './../pages/produtos/produtos';
+import { LoginPage } from './../pages/login/login';
 
 @Component({
   templateUrl: 'app.html'
@@ -12,7 +13,7 @@ import { ProdutosPage } from './../pages/produtos/produtos';
 export class MyApp {
   @ViewChild(Nav) nav: Nav;
 
-  rootPage: any = GoogleMapsPage;
+  rootPage: any = LoginPage;
 
   pages: Array<{title: string, component: any}>;
 
